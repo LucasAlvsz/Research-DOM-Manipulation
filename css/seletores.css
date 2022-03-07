@@ -61,3 +61,14 @@ button:hover{
 .ocultar-click:hover{
     cursor: auto;
 }
+
+.homepage{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #fff;
+    background-image: url(../imgs/homepage.png);
+    background-size: cover;
+}

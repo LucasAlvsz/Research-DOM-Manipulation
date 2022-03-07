@@ -38,6 +38,7 @@ function retornos(element) {
     }
     else if (element == "textContent") {
         const elementoSelecionado = document.querySelector(".textContent").parentNode
+        console.log(document.querySelector("body").textContent);
         console.log("Retorno: \n", elementoSelecionado.textContent);
         document.querySelector("span").innerHTML = elementoSelecionado.toString()
         document.querySelector(".span2").innerHTML = "<img src='imgs/textContent.png'>"

@@ -64,7 +64,5 @@ function adcionaElementos() {
     divNova.appendChild(conteudoNovo);
     let divAtual = document.getElementById("div1");
     divAtual.appendChild(divNova)
-
 }
-
 

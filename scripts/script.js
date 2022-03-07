@@ -43,4 +43,17 @@ function retornos(element) {
         document.querySelector(".span2").innerHTML = "<img src='imgs/textContent.png'>"
     }
     
+    else if (element == "NodeList") {
+        const elementoSelecionado = document.querySelectorAll(".element")
+        console.log("Retorno: \n",elementoSelecionado);
+        document.querySelector(".span1").innerHTML = elementoSelecionado.toString()
+        document.querySelector(".span2").innerHTML = "<img src='imgs/nodeList.png'>"
+    }
+
+    else if (element == "Array") {
+        const elementoSelecionado = [...document.querySelectorAll(".element")]
+        console.log("Retorno: \n",elementoSelecionado);
+        document.querySelector(".span1").innerHTML = elementoSelecionado.toString()
+        document.querySelector(".span2").innerHTML = "<img src='imgs/array.png'>"
+    }
 }

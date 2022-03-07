@@ -39,5 +39,25 @@
     font-size: 20px;
     font-family: 'Roboto', sans-serif;
 }
+.buttons{
+    width: 100%;
+    display: flex;
+    padding: 10px;
+}
+button{
+    width: 200px;
+    height: 30px;
+    margin-right: 20px;
+    border-radius: 20px;
+    background-color: rgb(169, 68, 209);
+    border-color: transparent;
+    color: white;
+}
 
+button:hover{
+    cursor: pointer;
+}
 
+.ocultar-click:hover{
+    cursor: auto;
+}

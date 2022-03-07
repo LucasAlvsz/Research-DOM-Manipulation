@@ -24,6 +24,23 @@ function retornos(element) {
         document.querySelector("span").innerHTML = querySelectorAllReturn.toString()
         document.querySelector(".span2").innerHTML = "<img src='imgs/querySelectorAll.png'>"
     }
+    else if (element == "innerHTML") {
+        const elementoSelecionado = document.querySelector(".innerHTML").parentNode
+        console.log("Retorno: \n",elementoSelecionado.innerHTML);
+        document.querySelector("span").innerHTML = elementoSelecionado.toString()
+        document.querySelector(".span2").innerHTML = "<img src='imgs/innerHTML.png'>"
+    }
+    else if (element == "innerText") {
+        const elementoSelecionado = document.querySelector(".innerText").parentNode
+        console.log("Retorno: \n",elementoSelecionado.innerText);
+        document.querySelector("span").innerHTML = elementoSelecionado.toString()
+        document.querySelector(".span2").innerHTML = "<img src='imgs/innerText.png'>"
+    }
+    else if (element == "textContent") {
+        const elementoSelecionado = document.querySelector(".textContent").parentNode
+        console.log("Retorno: \n",elementoSelecionado.textContent);
+        document.querySelector("span").innerHTML = elementoSelecionado.toString()
+        document.querySelector(".span2").innerHTML = "<img src='imgs/textContent.png'>"
+    }
+    
 }
-
-retornos()

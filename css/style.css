@@ -37,11 +37,11 @@ section{
 .option{
     width: 300px;
     height: 200px;
-    font-size: 30px;
+    font-size: 25px;
     color: #00EDFF;
     display: flex;
     justify-content: center;
-    padding: 15px;
+    padding: 12px;
     border: 1px solid antiquewhite;
     border-radius: 10px;
 }
@@ -54,8 +54,16 @@ a:hover {
     filter: brightness(130%);
     transition: all 1s;
 }
+a{
+    margin-right: 15px;
+}
 
 .seletores{
     background-image: url(https://i.pinimg.com/originals/87/98/77/879877f9ddebaf63aa83976fe65a87ce.gif);
+    background-size: cover;
+}
+
+.inners-textContet{
+    background-image: url(../imgs/inners.gif);
     background-size: cover;
 }

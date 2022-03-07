@@ -1,0 +1,43 @@
+.element{
+    background-color: rgb(42, 206, 206);
+    width: 250px;
+    height: 150px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.exemplos{
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #fff;
+}
+
+.exemplos:hover{
+    cursor: pointer;
+    filter: brightness(130%);
+    transition: all 1s;
+}
+
+.retorno{
+    width: 100%;
+    margin-top: 20px;
+    color: #fff;
+    font-size: 25px;
+}
+
+.retorno span{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    display: block;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+

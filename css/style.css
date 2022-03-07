@@ -1,0 +1,58 @@
+body{
+    font-family: 'Unica One', cursive;
+    background-color: #2e6ba5be;
+}
+
+*{
+    box-sizing: border-box;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.title{
+    font-size: 50px;
+    color: #fff;
+    margin-top: 40px;
+}
+.sub-title{
+    width: 100%;
+    font-size: 25px;
+    color: #fff;
+    margin-bottom: 15px;
+}
+section{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+.option{
+    width: 300px;
+    height: 200px;
+    font-size: 30px;
+    color: #00EDFF;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    border: 1px solid antiquewhite;
+    border-radius: 10px;
+}
+
+a:link{
+  text-decoration: none;
+}
+
+a:hover {
+    filter: brightness(130%);
+    transition: all 1s;
+}
+
+.seletores{
+    background-image: url(https://i.pinimg.com/originals/87/98/77/879877f9ddebaf63aa83976fe65a87ce.gif);
+    background-size: cover;
+}

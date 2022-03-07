@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imgs/favicon.png" type="image/x-icon">
+    <title>Seletores</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Unica+One&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/seletores.css">
+</head>
+
+<main>
+    <h1 class="title">Seletores</h1>
+    <section>
+        <h2 class="sub-title" style="font-size: 20px;">Clique nos retangulos abaixo para visualizar as diferenças:</h2>
+        <h2 class="sub-title" style="font-size: 12px; font-family: 'Roboto', sans-serif;">(Você pode também utilizar o "Inspecionar Elemento" para visualizar os retornos com mais detalhes!)</h2>
+        <div class="exemplos">
+            <div class="exemplo" onclick="retornos('getElementById')">
+                <div class= "element" id="getElementById">
+                    <p>getElementById</p>
+                </div>
+            </div>
+        </div>
+        <div class="exemplos">
+            <div class="exemplo" onclick="retornos('getElementsByClassName')">
+                <div class= "element getElementsByClassName">
+                    <p>getElementsBy
+                        ClassName</p>
+                </div>
+            </div>
+        </div>
+        <div class="exemplos">
+            <div class="exemplo" onclick="retornos('querySelector')">
+                <div class= "element querySelector">
+                    <p>querySelector</p>
+                </div>
+            </div>
+        </div>
+        <div class="exemplos">
+            <div class="exemplo" onclick="retornos('querySelectorAll')">
+                <div class= "element querySelectorAll">
+                    <p>querySelectorAll</p>
+                </div>
+            </div>
+        </div>
+        <p class="retorno">Retorno: <span></span><span class="span2"></span></p>
+
+    </section>
+
+    <script src="scripts/script.js"></script>
+</main>

@@ -13,17 +13,20 @@
         rel="stylesheet">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/seletores.css">
 </head>
 
 <body>
     <main>
-        <h1 class="title">Prova de Conceito</h1>
+        <h1 class="title">Criando Elementos</h1>
         <section>
-            <h2 class="sub-title">Selecione abaixo o tópico desejado:</h2>
-            <a href="seletores.html"><p class="option seletores">Seletores</p></a>
-            <a href="inners-textContent.html"><p class="option inners-textContet">Inners e TextContent</p></a>
-            <a href="NodeListe-Array.html"><p class="option nodeList-Array">NodeList e Array</p></a>
-            <a href="criar-elementos.html"><p class="option createElements" style="color: black;">Criando Elementos</p></a>
+            <h2 class="sub-title" style="font-size: 20px;">Clique no botão para criar elementos:</h2>
+            <span class="buttons">
+            <button onclick="adcionaElementos()">Criar elemento</button>
+            </span>
+            <div class="exemplos" id="div1">
+                
+            </div>
         </section>
         
     </main>

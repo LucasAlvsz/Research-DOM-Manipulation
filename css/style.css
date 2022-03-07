@@ -73,3 +73,8 @@ a{
     background-image: url(../imgs/nodeListArray.gif);
     background-size: cover;
 }
+
+.createElements{
+    background-image: url(../imgs/create.gif);
+    background-size: cover;
+}
